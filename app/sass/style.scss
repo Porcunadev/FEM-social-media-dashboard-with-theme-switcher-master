@@ -74,6 +74,9 @@
 }
 
 @media only screen and (min-width: 401px) {
+        body {
+            padding:1rem 8rem;
+        }
         .title {
             h2 {
                 margin-bottom: 0;
