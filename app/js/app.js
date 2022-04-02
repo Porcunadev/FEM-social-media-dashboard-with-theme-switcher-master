@@ -1,5 +1,5 @@
 const slider = document.querySelector("#slider");
-const container = document.querySelector(".container");
+const container = document.querySelector("body");
 slider.addEventListener('click',() => {
     if(slider.checked === true) {
         console.log('true');
