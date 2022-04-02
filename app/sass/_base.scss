@@ -11,6 +11,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.dark-bg {
+    background-color:rgb(29 32 41);
+}
+.light-bg {
+    background-color:$white;
+}
 
 h1 {
     color:$white;
