@@ -6,14 +6,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.dark-bg {
-  background-color: #1d2029;
-}
-
-.light-bg {
-  background-color: white;
-}
-
 h1 {
   color: white;
 }
@@ -296,5 +288,18 @@ input:checked + .slider:before {
     padding: 0 1rem;
   }
 }
+.light-bg {
+    background-color: white;
+}
 
+.dark-bg {
+    background-color: hsl(227deg 28% 20%);
+}
+
+.dark-text {
+    color: black;
+}
+.darker-bg {
+    background-color:#1d2029;
+}
 /*# sourceMappingURL=style.css.map */
