@@ -28,10 +28,10 @@ slider.addEventListener('click',() => {
             element.classList.remove("dark-bg");
         });
         body.classList.add("light-bg");
+        body.classList.remove("dark-bg");
     }
     if(slider.checked === false) {
         mainDiv.forEach(element => {
-            element.classList.add("dark-bg");
             element.classList.remove("light-bg")
             h1s.forEach(element => {
                 element.classList.remove("dark-text");
@@ -48,7 +48,7 @@ slider.addEventListener('click',() => {
             element.classList.add("dark-bg");
             element.classList.remove("light-bg");
         });
-        body.classList.add("darker-bg");
+        body.classList.remove("light-bg");
         h2s.forEach(element => {
             element.classList.remove("dark-text");
         });
